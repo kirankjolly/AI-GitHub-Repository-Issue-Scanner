@@ -1,0 +1,43 @@
+KushoAI Backend Service - Task Breakdown
+==========================================
+
+Task 1: Project Setup
+- Create project directory structure
+- Create requirements.txt with dependencies
+- Create .env.example for configuration template
+- Create main.py with basic FastAPI app
+STATUS: DONE
+
+Task 2: Database Schema & Setup
+- Design SQLite schema for issues table
+- Create database initialization script
+- Implement database connection handling
+STATUS: DONE
+
+Task 3: Implement /scan Endpoint
+- Create GitHub API client
+- Implement issue fetching logic (handle pagination)
+- Implement caching logic (replace old issues)
+- Add endpoint with proper response format
+STATUS: DONE
+
+Task 4: Implement /analyze Endpoint
+- Implement issue loading from cache
+- Create OpenAI GPT-4 integration
+- Handle context size limitations
+- Add endpoint with proper response format
+STATUS: DONE
+
+Task 5: Error Handling & Validation
+- Add input validation
+- Handle repo not scanned error
+- Handle no issues cached error
+- Handle GitHub API errors
+- Handle OpenAI API errors
+STATUS: DONE
+
+Task 6: Final Review & Documentation
+- Test both endpoints
+- Add README.md with setup instructions
+- Final code cleanup
+STATUS: DONE
