@@ -1,4 +1,4 @@
-# KushoAI Issue Analyzer
+# Github Issue Analyzer
 
 Backend service for scanning and analyzing GitHub issues using GPT-4.
 
