@@ -161,6 +161,7 @@ response = requests.post(
 print(response.json())
 ```
 
+
 ## Architecture
 
 ```
@@ -172,12 +173,14 @@ github_client.py     - GitHub API integration
 openai_client.py     - OpenAI GPT-4 integration
 ```
 
+
 ## Tech Stack
 
 - **Framework**: FastAPI
 - **Database**: SQLite with SQLAlchemy ORM
 - **APIs**: GitHub REST API, OpenAI GPT-4
 - **Language**: Python 3
+
 
 ## Error Handling
 
